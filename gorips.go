@@ -1,9 +1,7 @@
 package main
 
-import (
-	log "github.com/sirupsen/logrus"
-)
+import "log/slog"
 
 func main() {
-	log.Info("Starting gorips")
+	slog.Info("starting gorips")
 }
